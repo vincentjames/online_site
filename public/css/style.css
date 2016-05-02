@@ -42,19 +42,21 @@ body {
 }
 
 .parallax {
-	background: url(http://gimepix.com/img/1920-1080-textures-049) fixed repeat;
+	background: url('http://gimepix.com/img/1920-1080-textures-038') fixed repeat;
 	
 }
  
 .navbar-default {
-	background-color: #0D2B36;
+	background-color: #34323B;
 	border: #ffffff;
 	color: #fff;
+	padding-right: 20px;
 }
 
 .navbar-default .navbar-brand {
 	color: #fff;
 	font-size: 1.5em;
+	padding-left: 20px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -88,31 +90,79 @@ body {
 }
 
 .btn-primary {
-	background-color: #5366ff;
-	border: #5366ff;
+	background-color: #173874;
+	border: #173874;
 }
 
 .btn-success {
-	background-color: #42e37b;
-	border: #42e37b;
+	background-color: #78D000;
+	border: #78D000;
 }
 
 .btn-danger {
-	background-color: #ff2c38;
+	background-color: #731C12;
 	border: #ff2c38;
 }
 
 .btn-info {
-	background-color: #00bfff;
-	border: #00bfff;
+	background-color: #A50077;
+	border: #A50077;
 }
 
 .btn-warning {
-	background-color: #d9964b;
-	border: #d9964b;
+	background-color: #EBB100;
+	border: #EBB100;
 }
 
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active,
+.open .dropdown-toggle.btn-primary:hover {
+	color: #fff;
+	background-color: #0f1f3c;
+	border-color: #0f1f3c;
+}
 
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success:active,
+.open .dropdown-toggle.btn-success:hover {
+	color: #fff;
+	background-color: #2c4608;
+	border-color: #2c4608;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info:active,
+.open .dropdown-toggle.btn-info:hover {
+	color: #fff;
+	background-color: #3b062c;
+	border-color: #3b062c;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger:active,
+.open .dropdown-toggle.btn-danger:hover {
+	color: #fff;
+	background-color: #3e0c06;
+	border-color: #3e0c06;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning:active,
+.open .dropdown-toggle.btn-warning:hover {
+	color: #fff;
+	background-color: #674e00;
+	border-color: #674e00;
+}
 
 
 
@@ -134,9 +184,9 @@ Dark Grey 34323B;
 
 
 /*
-primary #5366ff;
-danger #ff2C38;
-success #42E37B;
-info #00BFFF;
-warning #D9964B;
+primary #0f1f3c; darker #0f1f3c;
+danger #3e0c06; darker #3e0c06;
+success #2c4608; darker #2c4608;
+info #3b062c; darker #3b062c;
+warning #674e00; darker #674e00;
 */
