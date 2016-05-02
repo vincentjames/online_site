@@ -1,3 +1,21 @@
+/*
+	FONT FAMILY
+		h1 - font-family: 'Montserrat', sans-serif;
+		p  - font-family: 'Open Sans', sans-serif;
+*/
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.border1 {
+	border: 8px solid #666;
+}
+
 .m-top {
 	margin-top: 30px;
 }
@@ -10,6 +28,10 @@
 	padding-right: 15px;
 }
 
+.padd-lft {
+	padding-right: 20px;
+}
+
 .navbar-text > a {
 	color: inherit;
 	text-decoration: none;
@@ -20,7 +42,101 @@ body {
 }
 
 .parallax {
-	background: url(http://gimepix.com/img/1920-1080-textures-049) repeat fixed;	
+	background: url(http://gimepix.com/img/1920-1080-textures-049) fixed repeat;
+	
+}
+ 
+.navbar-default {
+	background-color: #0D2B36;
+	border: #ffffff;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #439bd4;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: #110231;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #439bd4;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #fff;
+	background-color: #110231;
+}
+
+.btn-primary {
+	background-color: #5366ff;
+	border: #5366ff;
+}
+
+.btn-success {
+	background-color: #42e37b;
+	border: #42e37b;
+}
+
+.btn-danger {
+	background-color: #ff2c38;
+	border: #ff2c38;
+}
+
+.btn-info {
+	background-color: #00bfff;
+	border: #00bfff;
+}
+
+.btn-warning {
+	background-color: #d9964b;
+	border: #d9964b;
 }
 
 
+
+
+
+
+
+
+/* 
+Dark Green #374140; 
+Light Green #486E58;
+Navy Blue #142E46;
+Light Blue #439BD4;
+Dark Red #731C12;
+Orange #B9502B;
+Purple #9C03B2;
+Dark Purple 4F0062;
+Yellow #ADBE35;
+Dark Grey 34323B;
+*/
+
+
+/*
+primary #5366ff;
+danger #ff2C38;
+success #42E37B;
+info #00BFFF;
+warning #D9964B;
+*/
