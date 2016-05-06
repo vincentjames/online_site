@@ -45,6 +45,11 @@ body {
 	background: url('http://gimepix.com/img/1920-1080-textures-038') fixed repeat;
 	
 }
+
+#scrollerBox {
+	position: relative;
+	overflow: auto;
+}
  
 .navbar-default {
 	background-color: #34323B;
@@ -190,3 +195,56 @@ success #2c4608; darker #2c4608;
 info #3b062c; darker #3b062c;
 warning #674e00; darker #674e00;
 */
+
+
+
+/* ANIMATIONS */
+
+.thumbnail img:hover {
+	transform: scale(1.1);
+}
+
+.thumbnail img {
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+
+.no-overflow {
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
